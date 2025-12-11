@@ -1,65 +1,236 @@
+// app/page.tsx
 import Image from "next/image";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <div className="min-h-screen bg-white text-slate-900 flex flex-col">
+      {/* Top bar */}
+      <div className="border-b border-red-600/60 bg-white text-xs sm:text-sm">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-2">
+          <p className="text-slate-600">
+            Serving Napa • Solano • Sonoma • Contra Costa
+          </p>
+          <p className="text-slate-800 font-medium">
+            Call: (707) 373-5915 · Email: iabeyta@aichateaux.ai
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </div>
+
+      {/* Header / Nav */}
+      <header className="border-b border-red-200 bg-white/95 backdrop-blur shadow-sm">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-6">
+          {/* Logo + Brand */}
+          <div className="flex items-center gap-5">
+            <div className="relative h-20 w-20">
+              <Image
+                src="/ai-chateaux-logo.png"
+                alt="AI Chateaux Logo"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
+            <div className="leading-tight">
+              <p className="text-3xl sm:text-4xl font-bold tracking-wide text-red-700">
+                AI Chateaux LLC
+              </p>
+              <p className="text-sm sm:text-base text-slate-700">
+                Professional Fiduciary &amp; Estate Services
+              </p>
+            </div>
+          </div>
+
+          {/* Nav */}
+          <nav className="hidden gap-7 text-base font-bold text-slate-900 md:flex">
+            <a href="/" className="text-red-700">
+              Home
+            </a>
+            <a href="/services" className="hover:text-red-700">
+              Services
+            </a>
+            <a href="/about" className="hover:text-red-700">
+              Fiduciary
+            </a>
+            <a href="/contact" className="hover:text-red-700">
+              Contact
+            </a>
+          </nav>
         </div>
+      </header>
+
+      {/* Main */}
+      <main className="flex-1">
+        {/* Hero */}
+        <section className="px-6 md:px-12 lg:px-24 py-16 md:py-20">
+          <div className="mx-auto max-w-5xl grid gap-10 md:grid-cols-[3fr,2fr] items-center">
+            <div>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6 text-red-800">
+                Professional Fiduciary &amp; Estate Services
+              </h1>
+              <p className="text-lg text-slate-700 mb-6">
+                AI Chateaux partners with attorneys, families, and courts to
+                manage receivership, estate administration, and complex
+                real-estate matters throughout Northern California.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <a
+                  href="/services"
+                  className="inline-block bg-red-700 text-white px-10 py-3 rounded-md text-base md:text-lg hover:bg-red-800 focus:ring-2 focus:ring-red-500 transition"
+                >
+                  View Services
+                </a>
+                <a
+                  href="/contact"
+                  className="inline-block border border-red-300 text-red-800 px-10 py-3 rounded-md text-base md:text-lg hover:border-red-500 hover:text-red-900 transition"
+                >
+                  Schedule a Call
+                </a>
+              </div>
+            </div>
+
+            <div className="bg-red-50 border border-red-300 rounded-xl p-6 shadow-sm">
+              <p className="text-xs font-semibold tracking-wide text-red-700 uppercase mb-3">
+                Typical Matters
+              </p>
+              <ul className="text-sm text-slate-800 space-y-2">
+                <li>• Estate with multiple or distressed properties</li>
+                <li>• Court-involved or code-enforcement cases</li>
+                <li>• Families needing a neutral professional</li>
+                <li>• Attorneys needing a receivership partner</li>
+                <li>• Trust or conservatorship with real property</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Key Services Summary */}
+        <section className="bg-red-50/70 border-y border-red-200 py-16 px-6 md:px-12 lg:px-24">
+          <div className="mx-auto max-w-5xl">
+            <h2 className="text-3xl font-bold mb-2 text-center text-red-800">
+              How AI Chateaux Helps
+            </h2>
+            <p className="text-slate-700 text-center mb-10">
+              A single point of coordination for legal, financial, and
+              property-related decisions.
+            </p>
+            <div className="grid gap-10 md:grid-cols-3">
+              <div className="bg-white/80 border border-red-200 rounded-xl p-6 shadow-sm">
+                <h3 className="text-xl font-semibold mb-3 text-red-700">
+                  Fiduciary &amp; Estates
+                </h3>
+                <p className="text-slate-700 text-sm leading-relaxed mb-2">
+                  Conservatorships, trust administration, and estate
+                  settlement—handled with clear communication and formal
+                  reporting.
+                </p>
+                <ul className="text-xs text-slate-700 space-y-1">
+                  <li>• Court accountings &amp; documentation</li>
+                  <li>• Beneficiary &amp; family communication</li>
+                  <li>• Vendor and professional coordination</li>
+                </ul>
+              </div>
+              <div className="bg-white/80 border border-red-200 rounded-xl p-6 shadow-sm">
+                <h3 className="text-xl font-semibold mb-3 text-red-700">
+                  Receivership &amp; Stabilization
+                </h3>
+                <p className="text-slate-700 text-sm leading-relaxed mb-2">
+                  Court or attorney-driven property stabilization for distressed
+                  and non-performing assets.
+                </p>
+                <ul className="text-xs text-slate-700 space-y-1">
+                  <li>• Coordination with cities &amp; inspectors</li>
+                  <li>• Health &amp; safety and code compliance</li>
+                  <li>• Short- and long-term asset plans</li>
+                </ul>
+              </div>
+              <div className="bg-white/80 border border-red-200 rounded-xl p-6 shadow-sm">
+                <h3 className="text-xl font-semibold mb-3 text-red-700">
+                  Real Estate Advisory
+                </h3>
+                <p className="text-slate-700 text-sm leading-relaxed mb-2">
+                  Licensed California real estate experience focused on
+                  maximizing net results for estates and trusts.
+                </p>
+                <ul className="text-xs text-slate-700 space-y-1">
+                  <li>• BPOs, valuations, and scenario analysis</li>
+                  <li>• Rehab and disposition strategy</li>
+                  <li>• Coordination with listing &amp; sale</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Bio / About Preview */}
+        <section className="py-16 px-6 md:px-12 lg:px-24">
+          <div className="mx-auto max-w-4xl">
+            <h2 className="text-3xl font-bold mb-6 text-red-800">
+              Meet Isaiah Abeyta
+            </h2>
+            <p className="text-slate-700 leading-relaxed mb-4">
+              AI Chateaux LLC is led by{" "}
+              <span className="font-semibold">
+                Isaiah Abeyta, MBA, California Licensed Real Estate Professional
+              </span>
+              , with{" "}
+              <span className="font-semibold">16+ years of management</span>,
+              project, and contract experience.
+            </p>
+            <p className="text-slate-700 leading-relaxed mb-4">
+              Isaiah focuses on{" "}
+              <span className="font-semibold">
+                distressed and complex real estate
+              </span>{" "}
+              — properties tied up in estates, code-enforcement actions, or
+              difficult ownership situations. His background includes strategic
+              planning, financial analysis, and hands-on coordination with
+              contractors, inspectors, and legal teams.
+            </p>
+            <p className="text-slate-700 leading-relaxed">
+              The goal of AI Chateaux is simple:{" "}
+              <span className="font-semibold text-red-700">
+                give attorneys, courts, and families one calm, accountable
+                professional
+              </span>{" "}
+              who can organize the moving parts, document every step, and keep
+              everyone informed.
+            </p>
+            <div className="mt-8">
+              <a
+                href="/about"
+                className="inline-block text-red-700 font-semibold hover:text-red-800"
+              >
+                More about Isaiah &rarr;
+              </a>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA */}
+        <section className="bg-slate-900 text-white py-16 px-6 md:px-12 lg:px-24">
+          <div className="mx-auto max-w-3xl text-center">
+            <h2 className="text-3xl font-bold mb-4">
+              Have a Case or Property You Need to Discuss?
+            </h2>
+            <p className="text-slate-200 mb-8">
+              Share a brief overview of the matter—estate, receivership, or
+              distressed property—and we&apos;ll respond with practical next
+              steps and timelines.
+            </p>
+            <a
+              href="/contact"
+              className="inline-block bg-red-600 text-white px-10 py-4 rounded-md text-lg font-semibold hover:bg-red-700 focus:ring-2 focus:ring-red-500 transition"
+            >
+              Contact AI Chateaux
+            </a>
+          </div>
+        </section>
       </main>
+
+      {/* Footer */}
+      <footer className="border-t border-red-200 bg-white py-4 text-center text-xs text-slate-500">
+        <p>© {new Date().getFullYear()} AI Chateaux LLC · All Rights Reserved</p>
+      </footer>
     </div>
   );
 }
