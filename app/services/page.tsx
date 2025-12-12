@@ -17,35 +17,37 @@ export default function ServicesPage() {
       </div>
 
       {/* Header / Nav */}
-      <header className="border-b border-red-200 bg-white/95 backdrop-blur shadow-sm">
+      <header className="border-b border-slate-200 bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-6">
           {/* Logo + Brand */}
           <div className="flex items-center gap-5">
-            <div className="relative h-20 w-20">
+            <div className="relative h-16 w-16 md:h-20 md:w-20">
               <Image
                 src="/ai-chateaux-logo.png"
                 alt="AI Chateaux Logo"
                 fill
                 className="object-contain"
-                priority
               />
             </div>
             <div className="leading-tight">
-              <p className="text-3xl sm:text-4xl font-bold tracking-wide text-red-700">
+              <p className="text-2xl sm:text-3xl font-bold tracking-wide text-red-700">
                 AI Chateaux LLC
               </p>
-              <p className="text-sm sm:text-base text-slate-700">
+              <p className="text-xs sm:text-sm text-slate-600">
                 Professional Fiduciary &amp; Estate Services
               </p>
             </div>
           </div>
 
           {/* Nav */}
-          <nav className="hidden gap-7 text-base font-bold text-slate-900 md:flex">
+          <nav className="hidden gap-7 text-base font-semibold text-slate-800 md:flex">
             <a href="/" className="hover:text-red-700">
               Home
             </a>
-            <a href="/services" className="text-red-700">
+            <a
+              href="/services"
+              className="text-red-700 border-b-2 border-red-700 pb-1"
+            >
               Services
             </a>
             <a href="/about" className="hover:text-red-700">
@@ -58,18 +60,17 @@ export default function ServicesPage() {
         </div>
       </header>
 
-      {/* Main */}
       <main className="flex-1">
-        {/* Intro */}
-        <section className="px-6 md:px-12 lg:px-24 py-14 md:py-16 border-b border-red-200">
-          <div className="mx-auto max-w-5xl">
-            <p className="text-xs font-semibold tracking-[0.2em] uppercase text-red-700 mb-3">
+        {/* Hero */}
+        <section className="px-6 md:px-12 lg:px-24 py-14 bg-white">
+          <div className="mx-auto max-w-4xl">
+            <p className="text-xs font-semibold tracking-wide text-red-700 uppercase mb-3">
               Services
             </p>
-            <h1 className="text-3xl md:text-4xl font-bold mb-4 text-red-800">
+            <h1 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900">
               Fiduciary &amp; Real Estate Services for Complex Estates
             </h1>
-            <p className="text-slate-700 text-base md:text-lg leading-relaxed">
+            <p className="text-slate-700 text-base md:text-lg">
               AI Chateaux partners with attorneys, families, and courts to
               manage probate, trust, and conservatorship matters where real
               estate, beneficiaries, and compliance all intersect.
@@ -77,71 +78,142 @@ export default function ServicesPage() {
           </div>
         </section>
 
-        {/* Services grid */}
-        <section className="px-6 md:px-12 lg:px-24 py-14 bg-red-50/70 border-b border-red-200">
-          <div className="mx-auto max-w-5xl grid gap-8 md:grid-cols-3">
-            <div className="bg-white/90 border border-red-300 rounded-xl p-6 shadow-sm">
-              <h2 className="text-xl font-semibold mb-3 text-red-700">
-                Fiduciary &amp; Estates
+        {/* Three primary categories */}
+        <section className="px-6 md:px-12 lg:px-24 py-14 bg-slate-50 border-y border-slate-200">
+          <div className="mx-auto max-w-5xl">
+            <div className="grid gap-10 md:grid-cols-3">
+              <div className="bg-white border border-red-200 rounded-xl p-6 shadow-sm">
+                <h2 className="text-xl font-semibold mb-3 text-red-700">
+                  Fiduciary &amp; Estates
+                </h2>
+                <ul className="text-sm text-slate-700 space-y-2">
+                  <li>• Probate &amp; trust administration</li>
+                  <li>• Conservatorship of estate</li>
+                  <li>• Beneficiary communication &amp; reporting</li>
+                  <li>• Court-ready accountings &amp; documentation</li>
+                </ul>
+              </div>
+
+              <div className="bg-white border border-red-200 rounded-xl p-6 shadow-sm">
+                <h2 className="text-xl font-semibold mb-3 text-red-700">
+                  Stabilization &amp; Receivership Support
+                </h2>
+                <ul className="text-sm text-slate-700 space-y-2">
+                  <li>• Property stabilization &amp; securement</li>
+                  <li>• Code-enforcement &amp; city coordination</li>
+                  <li>• Health &amp; safety / habitability issues</li>
+                  <li>• 30–90 day action plans</li>
+                </ul>
+              </div>
+
+              <div className="bg-white border border-red-200 rounded-xl p-6 shadow-sm">
+                <h2 className="text-xl font-semibold mb-3 text-red-700">
+                  Real Estate Advisory
+                </h2>
+                <ul className="text-sm text-slate-700 space-y-2">
+                  <li>• BPOs, CMAs, and value scenarios</li>
+                  <li>• Rehab planning &amp; contractor oversight</li>
+                  <li>• Hold, rent, or sell recommendations</li>
+                  <li>• Support for court-supervised sales</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Typical matters / examples */}
+        <section className="px-6 md:px-12 lg:px-24 py-14 bg-white">
+          <div className="mx-auto max-w-5xl grid gap-10 md:grid-cols-[3fr,2fr] items-start">
+            <div>
+              <h2 className="text-2xl font-bold mb-4 text-slate-900">
+                Typical Matters
               </h2>
-              <ul className="text-sm text-slate-800 space-y-2">
-                <li>• Probate &amp; trust administration</li>
-                <li>• Conservatorship of estate</li>
-                <li>• Beneficiary communication &amp; reporting</li>
-                <li>• Court-ready accountings</li>
+              <p className="text-slate-700 mb-4">
+                Cases often involve overlapping legal, financial, and
+                property-related issues. AI Chateaux focuses on:
+              </p>
+              <ul className="text-sm text-slate-700 space-y-2">
+                <li>
+                  • Estates with multiple properties or long-deferred
+                  maintenance
+                </li>
+                <li>
+                  • Trusts or conservatorships where beneficiaries are in
+                  conflict
+                </li>
+                <li>
+                  • Code-enforcement and city compliance issues tied to real
+                  property
+                </li>
+                <li>
+                  • Situations where a neutral, accountable professional is
+                  needed
+                </li>
               </ul>
             </div>
 
-            <div className="bg-white/90 border border-red-300 rounded-xl p-6 shadow-sm">
-              <h2 className="text-xl font-semibold mb-3 text-red-700">
-                Stabilization &amp; Receivership Support
-              </h2>
-              <ul className="text-sm text-slate-800 space-y-2">
-                <li>• Property stabilization &amp; securement</li>
-                <li>• Code-enforcement &amp; city coordination</li>
-                <li>• Health &amp; safety / habitability issues</li>
-                <li>• 30–90 day action plans</li>
-              </ul>
-            </div>
-
-            <div className="bg-white/90 border border-red-300 rounded-xl p-6 shadow-sm">
-              <h2 className="text-xl font-semibold mb-3 text-red-700">
-                Real Estate Advisory
-              </h2>
-              <ul className="text-sm text-slate-800 space-y-2">
-                <li>• BPOs, CMAs, and value scenarios</li>
-                <li>• Rehab planning &amp; contractor oversight</li>
-                <li>• Hold, rent, or sell recommendations</li>
-                <li>• Support for court-supervised sales</li>
+            <div className="bg-slate-50 border border-red-200 rounded-xl p-6 shadow-sm">
+              <p className="text-xs font-semibold tracking-wide text-red-700 uppercase mb-3">
+                For Attorneys &amp; Courts
+              </p>
+              <ul className="text-sm text-slate-700 space-y-2">
+                <li>• Clear written plans with timelines and milestones</li>
+                <li>• Regular reporting you can attach to filings</li>
+                <li>• Documentation to support decisions and fee requests</li>
+                <li>• Coordination with agents, contractors, and vendors</li>
               </ul>
             </div>
           </div>
         </section>
 
-        {/* CTA */}
-        <section className="px-6 md:px-12 lg:px-24 py-14">
-          <div className="mx-auto max-w-3xl text-center">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4 text-red-800">
-              Not Sure Where Your Matter Fits?
+        {/* Process */}
+        <section className="px-6 md:px-12 lg:px-24 py-14 bg-slate-50 border-t border-slate-200">
+          <div className="mx-auto max-w-4xl">
+            <h2 className="text-2xl font-bold mb-4 text-slate-900">
+              How Engagements Typically Work
             </h2>
-            <p className="text-slate-700 mb-8">
-              A short email with the property address, case type, and key dates
-              is enough to start. You&apos;ll receive a clear sense of whether
-              AI Chateaux is a fit and what the first 30–60 days could look
-              like.
-            </p>
-            <a
-              href="/contact"
-              className="inline-block bg-red-700 text-white px-10 py-3 rounded-md text-base md:text-lg font-semibold hover:bg-red-800 focus:ring-2 focus:ring-red-500 transition"
-            >
-              Discuss a Matter
-            </a>
+            <ol className="space-y-4 text-sm text-slate-700">
+              <li>
+                <span className="font-semibold">1. Introductory Call.</span>{" "}
+                Brief overview of the matter, parties involved, and key
+                deadlines or hearings.
+              </li>
+              <li>
+                <span className="font-semibold">2. Document &amp; Property Review.</span>{" "}
+                Review existing pleadings, orders, notices, and property
+                information.
+              </li>
+              <li>
+                <span className="font-semibold">3. Written Plan.</span> Outline
+                of recommended steps, estimated timelines, and coordination
+                needs.
+              </li>
+              <li>
+                <span className="font-semibold">4. Ongoing Management.</span>{" "}
+                Execution of the plan with regular updates to counsel,
+                beneficiaries, and the court as required.
+              </li>
+              <li>
+                <span className="font-semibold">5. Resolution &amp; Reporting.</span>{" "}
+                As properties are sold, stabilized, or distributed, records and
+                summaries are provided to support final accountings and closure.
+              </li>
+            </ol>
+
+            <div className="mt-8">
+              <a
+                href="/contact"
+                className="inline-block bg-red-700 text-white px-10 py-3 rounded-md text-base hover:bg-red-800 transition"
+              >
+                Discuss a Matter
+              </a>
+            </div>
           </div>
         </section>
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-red-200 bg-white py-4 text-center text-xs text-slate-500">
+      <footer className="border-t border-slate-200 bg-white py-4 text-center text-xs text-slate-500">
         <p>© {new Date().getFullYear()} AI Chateaux LLC · All Rights Reserved</p>
       </footer>
     </div>

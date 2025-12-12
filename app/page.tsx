@@ -17,7 +17,7 @@ export default function HomePage() {
       </div>
 
       {/* Header / Nav */}
-      <header className="border-b border-red-200 bg-white/95 backdrop-blur shadow-sm">
+      <header className="border-b border-slate-200 bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-6">
           {/* Logo + Brand */}
           <div className="flex items-center gap-5">
@@ -34,15 +34,18 @@ export default function HomePage() {
               <p className="text-3xl sm:text-4xl font-bold tracking-wide text-red-700">
                 AI Chateaux LLC
               </p>
-              <p className="text-sm sm:text-base text-slate-700">
+              <p className="text-sm sm:text-base text-slate-600">
                 Professional Fiduciary &amp; Estate Services
               </p>
             </div>
           </div>
 
           {/* Nav */}
-          <nav className="hidden gap-7 text-base font-bold text-slate-900 md:flex">
-            <a href="/" className="text-red-700">
+          <nav className="hidden gap-7 text-base font-semibold text-slate-800 md:flex">
+            <a
+              href="/"
+              className="text-red-700 border-b-2 border-red-700 pb-1"
+            >
               Home
             </a>
             <a href="/services" className="hover:text-red-700">
@@ -61,10 +64,10 @@ export default function HomePage() {
       {/* Main */}
       <main className="flex-1">
         {/* Hero */}
-        <section className="px-6 md:px-12 lg:px-24 py-16 md:py-20">
+        <section className="px-6 md:px-12 lg:px-24 py-16 md:py-20 bg-white">
           <div className="mx-auto max-w-5xl grid gap-10 md:grid-cols-[3fr,2fr] items-center">
             <div>
-              <h1 className="text-4xl md:text-5xl font-bold mb-6 text-red-800">
+              <h1 className="text-4xl md:text-5xl font-bold mb-6 text-slate-900">
                 Professional Fiduciary &amp; Estate Services
               </h1>
               <p className="text-lg text-slate-700 mb-6">
@@ -75,20 +78,20 @@ export default function HomePage() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
                   href="/services"
-                  className="inline-block bg-red-700 text-white px-10 py-3 rounded-md text-base md:text-lg hover:bg-red-800 focus:ring-2 focus:ring-red-500 transition"
+                  className="inline-block bg-red-700 text-white px-10 py-3 rounded-md text-base md:text-lg hover:bg-red-800 transition"
                 >
                   View Services
                 </a>
                 <a
                   href="/contact"
-                  className="inline-block border border-red-300 text-red-800 px-10 py-3 rounded-md text-base md:text-lg hover:border-red-500 hover:text-red-900 transition"
+                  className="inline-block border border-red-300 text-slate-900 px-10 py-3 rounded-md text-base md:text-lg hover:border-red-500 transition"
                 >
                   Schedule a Call
                 </a>
               </div>
             </div>
 
-            <div className="bg-red-50 border border-red-300 rounded-xl p-6 shadow-sm">
+            <div className="bg-white border border-red-200 rounded-xl p-6 shadow-sm">
               <p className="text-xs font-semibold tracking-wide text-red-700 uppercase mb-3">
                 Typical Matters
               </p>
@@ -104,57 +107,56 @@ export default function HomePage() {
         </section>
 
         {/* Key Services Summary */}
-        <section className="bg-red-50/70 border-y border-red-200 py-16 px-6 md:px-12 lg:px-24">
+        <section className="bg-slate-50 border-y border-slate-200 py-16 px-6 md:px-12 lg:px-24">
           <div className="mx-auto max-w-5xl">
-            <h2 className="text-3xl font-bold mb-2 text-center text-red-800">
+            <h2 className="text-3xl font-bold mb-2 text-center text-slate-900">
               How AI Chateaux Helps
             </h2>
-            <p className="text-slate-700 text-center mb-10">
+            <p className="text-slate-600 text-center mb-10">
               A single point of coordination for legal, financial, and
               property-related decisions.
             </p>
             <div className="grid gap-10 md:grid-cols-3">
-              <div className="bg-white/80 border border-red-200 rounded-xl p-6 shadow-sm">
+              <div className="bg-white border border-red-200 rounded-xl p-5 shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-red-700">
                   Fiduciary &amp; Estates
                 </h3>
                 <p className="text-slate-700 text-sm leading-relaxed mb-2">
-                  Conservatorships, trust administration, and estate
-                  settlement—handled with clear communication and formal
-                  reporting.
+                  Conservatorships, trust administration, and estate settlement
+                  with clear communication and formal reporting.
                 </p>
-                <ul className="text-xs text-slate-700 space-y-1">
+                <ul className="text-xs text-slate-600 space-y-1">
                   <li>• Court accountings &amp; documentation</li>
                   <li>• Beneficiary &amp; family communication</li>
                   <li>• Vendor and professional coordination</li>
                 </ul>
               </div>
-              <div className="bg-white/80 border border-red-200 rounded-xl p-6 shadow-sm">
+              <div className="bg-white border border-red-200 rounded-xl p-5 shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-red-700">
                   Receivership &amp; Stabilization
                 </h3>
                 <p className="text-slate-700 text-sm leading-relaxed mb-2">
-                  Court or attorney-driven property stabilization for distressed
-                  and non-performing assets.
+                  Property stabilization for distressed and non-performing
+                  assets under court or attorney direction.
                 </p>
-                <ul className="text-xs text-slate-700 space-y-1">
-                  <li>• Coordination with cities &amp; inspectors</li>
-                  <li>• Health &amp; safety and code compliance</li>
+                <ul className="text-xs text-slate-600 space-y-1">
+                  <li>• City, code-enforcement, and inspector coordination</li>
+                  <li>• Health &amp; safety and habitability issues</li>
                   <li>• Short- and long-term asset plans</li>
                 </ul>
               </div>
-              <div className="bg-white/80 border border-red-200 rounded-xl p-6 shadow-sm">
+              <div className="bg-white border border-red-200 rounded-xl p-5 shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-red-700">
                   Real Estate Advisory
                 </h3>
                 <p className="text-slate-700 text-sm leading-relaxed mb-2">
-                  Licensed California real estate experience focused on
-                  maximizing net results for estates and trusts.
+                  California real-estate experience focused on maximizing net
+                  results for estates, trusts, and receiverships.
                 </p>
-                <ul className="text-xs text-slate-700 space-y-1">
+                <ul className="text-xs text-slate-600 space-y-1">
                   <li>• BPOs, valuations, and scenario analysis</li>
                   <li>• Rehab and disposition strategy</li>
-                  <li>• Coordination with listing &amp; sale</li>
+                  <li>• Coordination through listing &amp; sale</li>
                 </ul>
               </div>
             </div>
@@ -162,19 +164,18 @@ export default function HomePage() {
         </section>
 
         {/* Bio / About Preview */}
-        <section className="py-16 px-6 md:px-12 lg:px-24">
+        <section className="py-16 px-6 md:px-12 lg:px-24 bg-white">
           <div className="mx-auto max-w-4xl">
-            <h2 className="text-3xl font-bold mb-6 text-red-800">
+            <h2 className="text-3xl font-bold mb-6 text-slate-900">
               Meet Isaiah Abeyta
             </h2>
             <p className="text-slate-700 leading-relaxed mb-4">
               AI Chateaux LLC is led by{" "}
               <span className="font-semibold">
-                Isaiah Abeyta, MBA, California Licensed Real Estate Professional
+                Isaiah Abeyta, MBA, California Licensed Real Estate
+                Professional
               </span>
-              , with{" "}
-              <span className="font-semibold">16+ years of management</span>,
-              project, and contract experience.
+              , with 16+ years of management, project, and contract experience.
             </p>
             <p className="text-slate-700 leading-relaxed mb-4">
               Isaiah focuses on{" "}
@@ -188,7 +189,7 @@ export default function HomePage() {
             </p>
             <p className="text-slate-700 leading-relaxed">
               The goal of AI Chateaux is simple:{" "}
-              <span className="font-semibold text-red-700">
+              <span className="font-semibold">
                 give attorneys, courts, and families one calm, accountable
                 professional
               </span>{" "}
@@ -219,7 +220,7 @@ export default function HomePage() {
             </p>
             <a
               href="/contact"
-              className="inline-block bg-red-600 text-white px-10 py-4 rounded-md text-lg font-semibold hover:bg-red-700 focus:ring-2 focus:ring-red-500 transition"
+              className="inline-block bg-white text-slate-900 px-10 py-4 rounded-md text-lg font-semibold hover:bg-slate-100 transition"
             >
               Contact AI Chateaux
             </a>
@@ -228,7 +229,7 @@ export default function HomePage() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-red-200 bg-white py-4 text-center text-xs text-slate-500">
+      <footer className="border-t border-slate-200 bg-white py-4 text-center text-xs text-slate-500">
         <p>© {new Date().getFullYear()} AI Chateaux LLC · All Rights Reserved</p>
       </footer>
     </div>
