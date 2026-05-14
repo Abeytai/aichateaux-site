@@ -168,7 +168,57 @@ export default function FiduciaryPage() {
             </div>
           </div>
         </section>
+<section className="py-14 bg-white border-t border-slate-200">
+  <div className="max-w-5xl mx-auto px-6">
 
+    <p className="text-sm font-semibold tracking-widest text-red-700 uppercase mb 1">
+      Community Involvement
+    </p>
+
+    <div className="grid md:grid-cols-2 gap-5 items-center">
+
+      <div>
+        <h2 className="text-3xl font-bold text-slate-900 mb-8">
+          Proud Sponsor of American Canyon Little League
+        </h2>
+
+        <p className="text-slate-700 leading-relaxed mb-3">
+          AI Fiduciary proudly supports American Canyon Little League and local youth athletics as part of its commitment to community stewardship, accountability, and long-term service.
+        </p>
+
+        <a
+  href="https://www.amcanll.org/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-3"
+>
+  <Image
+    src="/acll-logo.png"
+    alt="American Canyon Little League"
+    width={300}
+    height={300}
+    className="object-contain"
+  />
+
+  <span className="text-red-700 font-semibold hover:underline">
+    Visit American Canyon Little League
+  </span>
+</a>
+      </div>
+
+      <div>
+        <Image
+          src="/acll-photo.png"
+          alt="AI Fiduciary sponsorship with American Canyon Little League"
+          width={700}
+          height={500}
+          className="rounded-xl shadow-lg object-cover"
+        />
+      </div>
+
+    </div>
+  </div>
+</section>
         {/* CTA */}
         <section className="px-6 md:px-12 lg:px-24 py-14 bg-neutral-700 text-white">
           <div className="mx-auto max-w-3xl text-center">
