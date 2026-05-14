@@ -130,7 +130,7 @@ export default function ServicesPage() {
               </h2>
               <p className="text-slate-700 mb-4">
                 Cases often involve overlapping legal, financial, and
-                property-related issues. AI Fiduciaryx focuses on:
+                property-related issues. AI Fiduciary focuses on:
               </p>
               <ul className="text-sm text-slate-700 space-y-2">
                 <li>

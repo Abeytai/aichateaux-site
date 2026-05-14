@@ -62,6 +62,7 @@ export default function HomePage() {
         </div>
       </header>
 
+
       {/* Main */}
       <main className="flex-1">
         {/* Hero */}
@@ -105,7 +106,19 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+<section className="py-10 px-6 md:px-12 lg:px-24 bg-slate-50 border-t border-slate-200 border-b border-slate-200">
+  <div className="mx-auto max-w-4xl text-center">
 
+    <p className="text-sm font-semibold tracking-widest text-red-700 uppercase mb-4">
+      The Meaning Behind AI Fiduciary
+    </p>
+
+    <p className="text-lg text-slate-700 leading-relaxed">
+      <strong>“AI”</strong> represents the initials of founder <strong>Isaiah Abeyta</strong> and reflects a commitment to accountable, organized, and practical fiduciary service throughout Napa, Solano, Sonoma, and Contra Costa Counties.
+    </p>
+
+  </div>
+</section>
         {/* Key Services Summary */}
         <section className="bg-slate-50 border-y border-slate-200 py-16 px-6 md:px-12 lg:px-24">
           <div className="mx-auto max-w-5xl">
@@ -162,7 +175,83 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+<section className="py-16 px-6 md:px-12 lg:px-24 bg-white border-t border-slate-200">
+  <div className="mx-auto max-w-6xl">
+    <p className="text-sm font-semibold tracking-widest text-red-700 uppercase mb-3">
+      Practice Areas
+    </p>
 
+    <h2 className="text-3xl font-bold text-slate-900 mb-10">
+      Fiduciary Support for Complex Personal, Family, and Property Matters
+    </h2>
+
+    <div className="grid md:grid-cols-3 gap-8">
+      <div className="border border-slate-200 rounded-xl p-6">
+        <h3 className="text-xl font-bold text-slate-900 mb-3">
+          Conservatorships
+        </h3>
+        <p className="text-slate-700 leading-relaxed">
+          Support for court-supervised matters involving personal care, finances, property, vendors, records, and ongoing communication.
+        </p>
+      </div>
+
+      <div className="border border-slate-200 rounded-xl p-6">
+        <h3 className="text-xl font-bold text-slate-900 mb-3">
+          Trust & Estate Administration
+        </h3>
+        <p className="text-slate-700 leading-relaxed">
+          Organized administration support for trusts and estates, including documentation, beneficiary communication, asset coordination, and reporting.
+        </p>
+      </div>
+
+      <div className="border border-slate-200 rounded-xl p-6">
+        <h3 className="text-xl font-bold text-slate-900 mb-3">
+          Real Property Oversight
+        </h3>
+        <p className="text-slate-700 leading-relaxed">
+          Practical coordination for estate, trust, conservatorship, or court-involved properties requiring valuation, vendor oversight, repair planning, or disposition support.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section className="py-16 px-6 md:px-12 lg:px-24 bg-slate-50 border-t border-slate-200">
+  <div className="mx-auto max-w-5xl">
+    <p className="text-sm font-semibold tracking-widest text-red-700 uppercase mb-3">
+      Approach
+    </p>
+
+    <h2 className="text-3xl font-bold text-slate-900 mb-6">
+      Organized, Documented, and Accountable Fiduciary Work
+    </h2>
+
+    <p className="text-slate-700 leading-relaxed mb-8">
+      AI Fiduciary emphasizes clear communication, documented decision-making, practical coordination, and respectful interaction among attorneys, beneficiaries, families, vendors, and the court.
+    </p>
+
+    <div className="grid md:grid-cols-4 gap-6">
+      <div>
+        <h3 className="font-bold text-slate-900 mb-2">Clarity</h3>
+        <p className="text-sm text-slate-700">Define roles, priorities, deadlines, and next steps early.</p>
+      </div>
+
+      <div>
+        <h3 className="font-bold text-slate-900 mb-2">Documentation</h3>
+        <p className="text-sm text-slate-700">Maintain records that support decisions, reporting, and accountability.</p>
+      </div>
+
+      <div>
+        <h3 className="font-bold text-slate-900 mb-2">Coordination</h3>
+        <p className="text-sm text-slate-700">Work with attorneys, vendors, inspectors, agents, and other professionals.</p>
+      </div>
+
+      <div>
+        <h3 className="font-bold text-slate-900 mb-2">Stewardship</h3>
+        <p className="text-sm text-slate-700">Protect assets, reduce confusion, and move matters toward resolution.</p>
+      </div>
+    </div>
+  </div>
+</section>
         {/* Bio / About Preview */}
         <section className="py-16 px-6 md:px-12 lg:px-24 bg-white">
           <div className="mx-auto max-w-4xl">
@@ -170,15 +259,25 @@ export default function HomePage() {
               Meet Isaiah Abeyta
             </h2>
             <p className="text-slate-700 leading-relaxed mb-4">
-              AI Fiduciary is led by{" "}
-              <span className="font-semibold">
-                    Isaiah Abeyta, MBA, California Licensed Professional Fiduciary #1642,
-    National Certified Guardian (NCG) through the Center for Guardianship Certification (CGC)., Professional Fiduciary Association of California (PFAC) Member, and California Licensed Real Estate Professional.
-     “AI” represents Isaiah Abeyta’s initials. While modern technology and AI tools
-  are utilized to improve organization, reporting, and communication, every
-  matter is handled personally, professionally, and grounded in human judgement, ethics, and California Fiduciary Standards. 
-              </span>
-              ,With a background in management, financial analysis, real estate, and complex project coordination, Isaiah brings structured oversight and practical problem-solving to matters involving property, legal teams, vendors, and multi-party communication..
+              <p className="text-lg text-slate-700 leading-relaxed mb-8">
+  AI Fiduciary is led by Isaiah Abeyta, MBA, a California Licensed Professional Fiduciary serving Napa, Solano, Sonoma, and Contra Costa Counties.
+
+  <br /><br />
+
+  Isaiah focuses on organized communication, documented decision-making, practical coordination, and accountable oversight in matters involving trusts, conservatorships, estates, and real property.
+
+  <br /><br />
+
+  His background includes management, financial analysis, real estate, and complex project coordination, with experience working alongside attorneys, vendors, inspectors, and financial professionals in time-sensitive and multi-party matters.
+
+  <br /><br />
+
+  Isaiah is a member of the Professional Fiduciary Association of California (PFAC) and holds the National Certified Guardian (NCG) designation through the National Guardianship Association (NGA), along with a Master of Business Administration (MBA) and Six Sigma Black Belt certification.
+
+  <br /><br />
+
+  The goal of AI Fiduciary is simple: provide attorneys, courts, and families with a calm, organized, and accountable professional who can help move matters toward practical resolution.
+</p>
             </p>
             <p className="text-slate-700 leading-relaxed mb-4">
               Isaiah focuses on{" "}
@@ -204,7 +303,7 @@ export default function HomePage() {
                 href="/about"
                 className="inline-block text-red-700 font-semibold hover:text-red-800"
               >
-                More about Isaiah &rarr;
+                Learn More → &rarr;
               </a>
             </div>
           </div>
