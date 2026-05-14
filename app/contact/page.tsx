@@ -189,7 +189,7 @@ export default function ContactPage() {
       <footer className="border-t border-slate-200 bg-white py-4 text-center text-xs text-slate-500">
         <footer className="border-t border-slate-200 bg-white py-4 text-center text-xs text-slate-500">
   <p>
-    © {new Date().getFullYear()} AI Fiduciary · Isaiah Abeyta, MBA · California Licensed Professional Fiduciary #1642 · Proud Member of PFAC, NGA, and CSSC
+    © {new Date().getFullYear()} AI Fiduciary · Isaiah Abeyta, MBA · California Licensed Professional Fiduciar No. 1642 · Serving Napa, Solano, Sonoma & Contra Costa Counties
   </p>
 </footer>
       </footer>

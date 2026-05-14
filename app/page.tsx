@@ -178,7 +178,7 @@ export default function HomePage() {
   are utilized to improve organization, reporting, and communication, every
   matter is handled personally, professionally, and grounded in human judgement, ethics, and California Fiduciary Standards. 
               </span>
-              , with 16+ years of management, project, and contract experience.
+              ,With a background in management, financial analysis, real estate, and complex project coordination, Isaiah brings structured oversight and practical problem-solving to matters involving property, legal teams, vendors, and multi-party communication..
             </p>
             <p className="text-slate-700 leading-relaxed mb-4">
               Isaiah focuses on{" "}
@@ -287,7 +287,7 @@ export default function HomePage() {
       <section className="bg-neutral-700 text-white py-16 px-6 md:px-12 lg:px-24">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold mb-4">
-            Have a Case or Property You Need to Discuss?
+            Discuss a Fiduciary, Estate, or Property Matter
           </h2>
           <p className="text-slate-200 mb-8">
             Share a brief overview of the matter—estate, receivership, or
@@ -307,7 +307,7 @@ export default function HomePage() {
     {/* Footer */}
     <footer className="border-t border-slate-200 bg-white py-4 text-center text-xs text-slate-500">
       <p>
-        © {new Date().getFullYear()} AI Fiduciary · Isaiah Abeyta, MBA · California Licensed Professional Fiduciary No. 1642 · Proud Member of PFAC, NGA, and CSSC
+        © {new Date().getFullYear()} AI Fiduciary · Isaiah Abeyta, MBA · California Licensed Professional Fiduciary No. 1642 · Serving Napa, Solano, Sonoma & Contra Costa Counties
       </p>
     </footer>
   </div>

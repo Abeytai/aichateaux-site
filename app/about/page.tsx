@@ -65,22 +65,20 @@ export default function FiduciaryPage() {
         <section className="px-6 md:px-12 lg:px-24 py-16 bg-white">
           <div className="mx-auto max-w-4xl">
             <p className="text-xs font-semibold tracking-wide text-red-700 uppercase mb-3">
-              Professional Fiduciary
+              California Licensed Professional Fiduciary
             </p>
             <h1 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900">
-              A Neutral Professional for Complex Estates &amp; Receiverships
+              A Neutral Professional 
             </h1>
             <p className="text-slate-700 text-base md:text-lg mb-4">
-              As a professional fiduciary, Isaiah Abeyta serves as a neutral,
-              accountable decision-maker in matters involving real property,
-              families, and the courts. The focus is on{" "}
+              Isaiah Abeyta serves as a neutral and accountable fiduciary in matters involving estates, trusts, conservatorships, and receiverships. The focus is on clear communication, organized documentation, practical coordination, and steady progress toward resolution.{" "}
               <span className="font-semibold">
                 clarity, documentation, and practical progress
               </span>{" "}
               toward resolution.
             </p>
             <p className="text-slate-700 text-sm">
-              Isaiah brings 16+ years of management, financial analysis, and
+              Isaiah brings 17+ years of management, financial analysis, and
               project experience to each case, with a background that includes
               contract administration, strategic planning, and hands-on
               coordination with contractors, inspectors, and legal teams.
@@ -161,8 +159,11 @@ export default function FiduciaryPage() {
               </p>
               <ul className="text-sm text-slate-700 space-y-2">
                 <li>• MBA, California State University, Sacramento</li>
+                <li>• B.S, Sonoma State Univeristy, Rohnert Park</li>
                 <li>• California licensed real-estate professional</li>
-                <li>• 16+ years in management &amp; operations</li>
+                <li>• National Certifed Guardian (NGA)</li>   
+                <li>• Six Sigma Black Belt (CSSC)</li>
+                <li>• 17+ years in management &amp; operations</li>
                 <li>• Experience with distressed &amp; value-add properties</li>
               </ul>
             </div>
@@ -183,8 +184,8 @@ export default function FiduciaryPage() {
         </h2>
 
         <p className="text-slate-700 leading-relaxed mb-3">
-          AI Fiduciary proudly supports American Canyon Little League and local youth athletics as part of its commitment to community stewardship, accountability, and long-term service.
-        </p>
+          AI Fiduciary is proud to support American Canyon Little League as part of its commitment to community stewardship, accountability, and long-term service throughout Napa, Solano, Sonoma County.
+Professional fiduciary work is built on trust, consistency, communication, and responsibility — values that extend beyond the courtroom and into the local community.        </p>
 
         <a
   href="https://www.amcanll.org/"
@@ -243,7 +244,7 @@ export default function FiduciaryPage() {
       <footer className="border-t border-slate-200 bg-white py-4 text-center text-xs text-slate-500">
         <footer className="border-t border-slate-200 bg-white py-4 text-center text-xs text-slate-500">
   <p>
-    © {new Date().getFullYear()} AI Fiduciary · Isaiah Abeyta, MBA · California Licensed Professional Fiduciary #1642 · Proud Member of PFAC, NGA, and CSSC
+    © {new Date().getFullYear()} AI Fiduciary · Isaiah Abeyta, MBA · California Licensed Professional Fiduciary No. 1642 · Serving Napa, Solano, Sonoma & Contra Costa Counties
   </p>
 </footer>
       </footer>
