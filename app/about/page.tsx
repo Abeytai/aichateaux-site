@@ -11,7 +11,7 @@ export default function FiduciaryPage() {
             Serving Napa • Solano • Sonoma • Contra Costa
           </p>
           <p className="text-slate-800 font-medium">
-            Call: (707) 373-5915 · Email: iabeyta@aichateaux.ai
+            Call: (707) 373-5915 · Email: iabeyta@aifiduciary.ai
           </p>
         </div>
       </div>
@@ -31,10 +31,10 @@ export default function FiduciaryPage() {
             </div>
             <div className="leading-tight">
               <p className="text-2xl sm:text-3xl font-bold tracking-wide text-red-700">
-                AI Chateaux LLC
+                AI Fiduciary
               </p>
               <p className="text-xs sm:text-sm text-slate-600">
-                Professional Fiduciary &amp; Estate Services
+                California Licensed Professional Fiduciary No. 1642 
               </p>
             </div>
           </div>
@@ -170,7 +170,7 @@ export default function FiduciaryPage() {
         </section>
 
         {/* CTA */}
-        <section className="px-6 md:px-12 lg:px-24 py-14 bg-slate-900 text-white">
+        <section className="px-6 md:px-12 lg:px-24 py-14 bg-neutral-700 text-white">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
               Need a Neutral Professional for an Upcoming Matter?
@@ -182,7 +182,7 @@ export default function FiduciaryPage() {
             </p>
             <a
               href="/contact"
-              className="inline-block bg-white text-slate-900 px-10 py-3 rounded-md text-base font-semibold hover:bg-slate-100 transition"
+              className="inline-block bg-red-700 text-white-px-10 py-4 rounded-md text-lg font-semibold border-4-border-black hover:bg-black border hover:border bg-neutral-700 transition"
             >
               Contact Isaiah
             </a>
@@ -191,7 +191,11 @@ export default function FiduciaryPage() {
       </main>
 
       <footer className="border-t border-slate-200 bg-white py-4 text-center text-xs text-slate-500">
-        <p>© {new Date().getFullYear()} AI Chateaux LLC · All Rights Reserved</p>
+        <footer className="border-t border-slate-200 bg-white py-4 text-center text-xs text-slate-500">
+  <p>
+    © {new Date().getFullYear()} AI Fiduciary · Isaiah Abeyta, MBA · California Licensed Professional Fiduciary #1642 · Proud Member of PFAC, NGA, and CSSC
+  </p>
+</footer>
       </footer>
     </div>
   );

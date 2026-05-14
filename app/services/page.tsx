@@ -11,7 +11,7 @@ export default function ServicesPage() {
             Serving Napa • Solano • Sonoma • Contra Costa
           </p>
           <p className="text-slate-800 font-medium">
-            Call: (707) 373-5915 · Email: iabeyta@aichateaux.ai
+            Call: (707) 373-5915 · Email: iabeyta@aifiduciary.ai
           </p>
         </div>
       </div>
@@ -31,10 +31,10 @@ export default function ServicesPage() {
             </div>
             <div className="leading-tight">
               <p className="text-2xl sm:text-3xl font-bold tracking-wide text-red-700">
-                AI Chateaux LLC
+                AI Fiduciary
               </p>
               <p className="text-xs sm:text-sm text-slate-600">
-                Professional Fiduciary &amp; Estate Services
+                California Licensed Professional Fiduciary No. 1642 
               </p>
             </div>
           </div>
@@ -71,7 +71,7 @@ export default function ServicesPage() {
               Fiduciary &amp; Real Estate Services for Complex Estates
             </h1>
             <p className="text-slate-700 text-base md:text-lg">
-              AI Chateaux partners with attorneys, families, and courts to
+              AI Fiduciary partners with attorneys, families, and courts to
               manage probate, trust, and conservatorship matters where real
               estate, beneficiaries, and compliance all intersect.
             </p>
@@ -130,7 +130,7 @@ export default function ServicesPage() {
               </h2>
               <p className="text-slate-700 mb-4">
                 Cases often involve overlapping legal, financial, and
-                property-related issues. AI Chateaux focuses on:
+                property-related issues. AI Fiduciaryx focuses on:
               </p>
               <ul className="text-sm text-slate-700 space-y-2">
                 <li>
@@ -210,11 +210,12 @@ export default function ServicesPage() {
             </div>
           </div>
         </section>
-      </main>
+        </main>
 
-      {/* Footer */}
       <footer className="border-t border-slate-200 bg-white py-4 text-center text-xs text-slate-500">
-        <p>© {new Date().getFullYear()} AI Chateaux LLC · All Rights Reserved</p>
+        <p>
+          ©© {new Date().getFullYear()} AI Fiduciary · Isaiah Abeyta, MBA · California Licensed Professional Fiduciary #1642 · Proud Member of PFAC, NGA, and CSSC
+        </p>
       </footer>
     </div>
   );

@@ -11,7 +11,7 @@ export default function ContactPage() {
             Serving Napa • Solano • Sonoma • Contra Costa
           </p>
           <p className="text-slate-800 font-medium">
-            Call: (707) 373-5915 · Email: iabeyta@aichateaux.ai
+            Call: (707) 373-5915 · Email: iabeyta@aifiduciary.ai
           </p>
         </div>
       </div>
@@ -31,10 +31,10 @@ export default function ContactPage() {
             </div>
             <div className="leading-tight">
               <p className="text-2xl sm:text-3xl font-bold tracking-wide text-red-700">
-                AI Chateaux LLC
+                AI Fiduciary
               </p>
               <p className="text-xs sm:text-sm text-slate-600">
-                Professional Fiduciary &amp; Estate Services
+                California Licensed Professional Fiduciary No. 1642 
               </p>
             </div>
           </div>
@@ -187,7 +187,11 @@ export default function ContactPage() {
       </main>
 
       <footer className="border-t border-slate-200 bg-white py-4 text-center text-xs text-slate-500">
-        <p>© {new Date().getFullYear()} AI Chateaux LLC · All Rights Reserved</p>
+        <footer className="border-t border-slate-200 bg-white py-4 text-center text-xs text-slate-500">
+  <p>
+    © {new Date().getFullYear()} AI Fiduciary · Isaiah Abeyta, MBA · California Licensed Professional Fiduciary #1642 · Proud Member of PFAC, NGA, and CSSC
+  </p>
+</footer>
       </footer>
     </div>
   );

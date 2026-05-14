@@ -11,7 +11,7 @@ export default function HomePage() {
             Serving Napa • Solano • Sonoma • Contra Costa
           </p>
           <p className="text-slate-800 font-medium">
-            Call: (707) 373-5915 · Email: iabeyta@aichateaux.ai
+            Call: (707) 373-5915 · Email: iabeyta@aifiduciary.ai
           </p>
         </div>
       </div>
@@ -32,10 +32,11 @@ export default function HomePage() {
             </div>
             <div className="leading-tight">
               <p className="text-3xl sm:text-4xl font-bold tracking-wide text-red-700">
-                AI Chateaux LLC
+                AI Fiduciary
               </p>
               <p className="text-sm sm:text-base text-slate-600">
-                Professional Fiduciary &amp; Estate Services
+                California Licensed Professional Fiduciary No. 1642 
+          
               </p>
             </div>
           </div>
@@ -68,12 +69,11 @@ export default function HomePage() {
           <div className="mx-auto max-w-5xl grid gap-10 md:grid-cols-[3fr,2fr] items-center">
             <div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6 text-slate-900">
-                Professional Fiduciary &amp; Estate Services
+  Professional Fiduciary Services for Families, Attorneys, and Courts
               </h1>
               <p className="text-lg text-slate-700 mb-6">
-                AI Chateaux partners with attorneys, families, and courts to
-                manage receivership, estate administration, and complex
-                real-estate matters throughout Northern California.
+                Conservatorships, trust administration, estate coordination, and complex
+  property oversight throughout Napa, Solano, Sonoma, and Contra Costa Counties.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
@@ -110,7 +110,7 @@ export default function HomePage() {
         <section className="bg-slate-50 border-y border-slate-200 py-16 px-6 md:px-12 lg:px-24">
           <div className="mx-auto max-w-5xl">
             <h2 className="text-3xl font-bold mb-2 text-center text-slate-900">
-              How AI Chateaux Helps
+              How AI Fiduciary Helps
             </h2>
             <p className="text-slate-600 text-center mb-10">
               A single point of coordination for legal, financial, and
@@ -170,10 +170,13 @@ export default function HomePage() {
               Meet Isaiah Abeyta
             </h2>
             <p className="text-slate-700 leading-relaxed mb-4">
-              AI Chateaux LLC is led by{" "}
+              AI Fiduciary is led by{" "}
               <span className="font-semibold">
-                Isaiah Abeyta, MBA, California Licensed Real Estate
-                Professional
+                    Isaiah Abeyta, MBA, California Licensed Professional Fiduciary #1642,
+    National Certified Guardian (NCG) through the Center for Guardianship Certification (CGC)., Professional Fiduciary Association of California (PFAC) Member, and California Licensed Real Estate Professional.
+     “AI” represents Isaiah Abeyta’s initials. While modern technology and AI tools
+  are utilized to improve organization, reporting, and communication, every
+  matter is handled personally, professionally, and grounded in human judgement, ethics, and California Fiduciary Standards. 
               </span>
               , with 16+ years of management, project, and contract experience.
             </p>
@@ -188,7 +191,7 @@ export default function HomePage() {
               contractors, inspectors, and legal teams.
             </p>
             <p className="text-slate-700 leading-relaxed">
-              The goal of AI Chateaux is simple:{" "}
+              The goal of AI Fiduciary is simple:{" "}
               <span className="font-semibold">
                 give attorneys, courts, and families one calm, accountable
                 professional
@@ -206,32 +209,107 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+      <section className="py-12 bg-white">
+        <div className="max-w-5xl mx-auto px-6 text-center">
+          <p className="text-sm font-semibold tracking-widest text-red-700 uppercase mb-10">
+            Professional Memberships & Certifications
+          </p>
 
-        {/* CTA */}
-        <section className="bg-slate-900 text-white py-16 px-6 md:px-12 lg:px-24">
-          <div className="mx-auto max-w-3xl text-center">
-            <h2 className="text-3xl font-bold mb-4">
-              Have a Case or Property You Need to Discuss?
-            </h2>
-            <p className="text-slate-200 mb-8">
-              Share a brief overview of the matter—estate, receivership, or
-              distressed property—and we&apos;ll respond with practical next
-              steps and timelines.
-            </p>
-            <a
-              href="/contact"
-              className="inline-block bg-white text-slate-900 px-10 py-4 rounded-md text-lg font-semibold hover:bg-slate-100 transition"
-            >
-              Contact AI Chateaux
-            </a>
+          <div className="grid md:grid-cols-3 gap-20 items-start justify-items-center">
+            <div className="text-center max-w-xs">
+              <h3 className="text-xl font-bold text-slate-900 mb-6">
+                PFAC Member
+              </h3>
+
+              <a href="https://pfac-pro.org" target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/pfac-logo.png"
+                  alt="PFAC Member"
+                  width={220}
+                  height={140}
+                  className="object-contain mx-auto"
+                />
+              </a>
+
+              <p className="mt-6 text-base text-slate-700 leading-relaxed">
+                Professional Fiduciary Association of California
+              </p>
+            </div>
+
+            <div className="text-center max-w-xs">
+              <h3 className="text-xl font-bold text-slate-900 mb-6">
+                National Certified Guardian
+              </h3>
+
+              <a href="https://guardianship.org" target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/nga-logo.png"
+                  alt="National Guardianship Association"
+                  width={220}
+                  height={140}
+                  className="object-contain mx-auto"
+                />
+              </a>
+
+              <p className="mt-6 text-base text-slate-700 leading-relaxed">
+                National Guardianship Association
+              </p>
+            </div>
+
+            <div className="text-center max-w-xs">
+              <h3 className="text-xl font-bold text-slate-900 mb-6">
+                Six Sigma Black Belt
+              </h3>
+
+              <a
+                href="https://www.sixsigmacouncil.org/six-sigma-black-belt-certification/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src="/cssc-logo.png"
+                  alt="Six Sigma Black Belt"
+                  width={190}
+                  height={140}
+                  className="object-contain mx-auto"
+                />
+              </a>
+
+              <p className="mt-6 text-base text-slate-700 leading-relaxed">
+                Council for Six Sigma Certification
+              </p>
+            </div>
           </div>
-        </section>
-      </main>
+        </div>
+      </section>
 
-      {/* Footer */}
-      <footer className="border-t border-slate-200 bg-white py-4 text-center text-xs text-slate-500">
-        <p>© {new Date().getFullYear()} AI Chateaux LLC · All Rights Reserved</p>
-      </footer>
-    </div>
-  );
+      {/* CTA */}
+      <section className="bg-neutral-700 text-white py-16 px-6 md:px-12 lg:px-24">
+        <div className="mx-auto max-w-3xl text-center">
+          <h2 className="text-3xl font-bold mb-4">
+            Have a Case or Property You Need to Discuss?
+          </h2>
+          <p className="text-slate-200 mb-8">
+            Share a brief overview of the matter—estate, receivership, or
+            distressed property—and we&apos;ll respond with practical next steps
+            and timelines.
+          </p>
+          <a
+            href="/contact"
+            className="inline-block bg-red-700 text-white-px-10 py-4 rounded-md text-lg font-semibold border-4-border-black hover:bg-black border hover:border bg-neutral-700 transition"
+          >
+            Contact AI Fiduciary
+          </a>
+        </div>
+      </section>
+    </main>
+
+    {/* Footer */}
+    <footer className="border-t border-slate-200 bg-white py-4 text-center text-xs text-slate-500">
+      <p>
+        © {new Date().getFullYear()} AI Fiduciary · Isaiah Abeyta, MBA · California Licensed Professional Fiduciary No. 1642 · Proud Member of PFAC, NGA, and CSSC
+      </p>
+    </footer>
+  </div>
+);
 }
