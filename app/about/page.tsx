@@ -96,7 +96,24 @@ export default function FiduciaryPage() {
             </p>
           </div>
         </section>
+<section className="py-16 px-6 bg-white">
+  <div className="max-w-4xl mx-auto">
+    <h2 className="text-3xl font-bold text-black mb-4">
+      Our Mission
+    </h2>
 
+    <p className="text-gray-700 text-lg leading-relaxed mb-4">
+      AI Fiduciary was founded to provide organized, ethical, and professional
+      fiduciary support during some of life’s most difficult transitions.
+    </p>
+
+    <p className="text-gray-700 text-lg leading-relaxed">
+      We believe families, attorneys, conservatees, trustees, and beneficiaries
+      deserve clear communication, transparency, professionalism, and thoughtful
+      administration throughout every stage of the fiduciary process.
+    </p>
+  </div>
+</section>
         {/* Pillars */}
         <section className="px-6 md:px-12 lg:px-24 py-14 bg-slate-50 border-y border-slate-200">
           <div className="mx-auto max-w-5xl grid gap-10 md:grid-cols-3">

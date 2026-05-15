@@ -91,7 +91,11 @@ export default function HomePage() {
                 </a>
               </div>
             </div>
-
+<section className="bg-black text-white py-4 px-6 text-center">
+  <p className="text-sm md:text-base font-medium tracking-wide">
+    Now Accepting Fiduciary, Conservatorship, Trust Administration, and Estate Coordination Matters Throughout Northern California
+  </p>
+</section>
             <div className="bg-white border border-red-200 rounded-xl p-6 shadow-sm">
               <p className="text-xs font-semibold tracking-wide text-red-700 uppercase mb-3">
                 Typical Matters
@@ -146,11 +150,10 @@ export default function HomePage() {
               </div>
               <div className="bg-white border border-red-200 rounded-xl p-5 shadow-sm">
                 <h3 className="text-xl font-semibold mb-3 text-red-700">
-                  Receivership &amp; Stabilization
+                  Property Oversight &amp; Stabilization
                 </h3>
                 <p className="text-slate-700 text-sm leading-relaxed mb-2">
-                  Property stabilization for distressed and non-performing
-                  assets under court or attorney direction.
+                  Coordinating property management, maintenance, vendor access, occupancy issues, documentation, and real estate-related administrative matters as part of fiduciary and estate administration services.
                 </p>
                 <ul className="text-xs text-slate-600 space-y-1">
                   <li>• City, code-enforcement, and inspector coordination</li>
@@ -163,13 +166,17 @@ export default function HomePage() {
                   Real Estate Advisory
                 </h3>
                 <p className="text-slate-700 text-sm leading-relaxed mb-2">
-                  California real-estate experience focused on maximizing net
-                  results for estates, trusts, and receiverships.
+                  California real-estate experience focused on maximizing net results for estates, trusts, and receiverships.
+
+    
+    
+    
                 </p>
                 <ul className="text-xs text-slate-600 space-y-1">
                   <li>• BPOs, valuations, and scenario analysis</li>
                   <li>• Rehab and disposition strategy</li>
-                  <li>• Coordination through listing &amp; sale</li>
+                  <li>• Coordination through listing & salen</li>
+             
                 </ul>
               </div>
             </div>
@@ -180,7 +187,35 @@ export default function HomePage() {
     <p className="text-sm font-semibold tracking-widest text-red-700 uppercase mb-3">
       Practice Areas
     </p>
+<section className="py-16 px-6 bg-white">
+  <div className="max-w-5xl mx-auto">
+    <h2 className="text-3xl font-bold text-black mb-4">
+      Fiduciary Support for Attorneys & Professional Advisors
+    </h2>
 
+    <p className="text-gray-700 text-lg leading-relaxed mb-6">
+      AI Fiduciary works alongside probate, estate planning, elder law, conservatorship,
+      and trust litigation counsel requiring organized fiduciary administration and
+      property coordination support.
+    </p>
+
+    <div className="grid md:grid-cols-2 gap-4 text-gray-700">
+      <p>• Trust administration support</p>
+      <p>• Conservatorship coordination</p>
+      <p>• Beneficiary communication</p>
+      <p>• Property oversight</p>
+      <p>• Vendor management</p>
+      <p>• Asset documentation</p>
+      <p>• Estate logistics</p>
+      <p>• Neutral third-party administration</p>
+    </div>
+
+    <p className="text-gray-700 text-lg leading-relaxed mt-6">
+      Our goal is to provide organized, professional, and transparent support while
+      helping reduce administrative burden during complex fiduciary matters.
+    </p>
+  </div>
+</section>
     <h2 className="text-3xl font-bold text-slate-900 mb-10">
       Fiduciary Support for Complex Personal, Family, and Property Matters
     </h2>

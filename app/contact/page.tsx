@@ -185,7 +185,11 @@ export default function ContactPage() {
           </div>
         </section>
       </main>
-
+<p className="text-xs text-gray-500 leading-relaxed mt-6">
+  Information provided on this website is for informational purposes only and does
+  not constitute legal, financial, investment, or tax advice. AI Fiduciary works
+  collaboratively with attorneys, CPAs, and other licensed professionals as appropriate.
+</p>
       <footer className="border-t border-slate-200 bg-white py-4 text-center text-xs text-slate-500">
         <footer className="border-t border-slate-200 bg-white py-4 text-center text-xs text-slate-500">
   <p>

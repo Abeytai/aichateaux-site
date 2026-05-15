@@ -120,7 +120,24 @@ export default function ServicesPage() {
             </div>
           </div>
         </section>
+<section className="py-16 px-6 bg-gray-50">
+  <div className="max-w-5xl mx-auto">
+    <h2 className="text-3xl font-bold text-black mb-6">
+      Why Families & Attorneys Choose AI Fiduciary
+    </h2>
 
+    <div className="grid md:grid-cols-2 gap-4 text-gray-700 text-lg">
+      <p>• California Licensed Professional Fiduciary</p>
+      <p>• MBA & operational management background</p>
+      <p>• Organized documentation and communication systems</p>
+      <p>• Experience coordinating complex property and estate matters</p>
+      <p>• Real estate and valuation familiarity</p>
+      <p>• Technology-forward administrative workflows</p>
+      <p>• Local Northern California focus</p>
+      <p>• Professional, neutral, and transparent administration approach</p>
+    </div>
+  </div>
+</section>
         {/* Typical matters / examples */}
         <section className="px-6 md:px-12 lg:px-24 py-14 bg-white">
           <div className="mx-auto max-w-5xl grid gap-10 md:grid-cols-[3fr,2fr] items-start">
