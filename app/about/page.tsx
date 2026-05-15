@@ -70,18 +70,29 @@ export default function FiduciaryPage() {
             <h1 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900">
               A Neutral Professional 
             </h1>
-            <p className="text-slate-700 text-base md:text-lg mb-4">
-              Isaiah Abeyta serves as a neutral and accountable fiduciary in matters involving estates, trusts, conservatorships, and receiverships. The focus is on clear communication, organized documentation, practical coordination, and steady progress toward resolution.{" "}
-              <span className="font-semibold">
-                clarity, documentation, and practical progress
-              </span>{" "}
-              toward resolution.
+            <p className="text-4xl md:text-5xl font-mb-6 text-slate-900">
+  <div className="space-y-8">
+  <div>
+    <p className="text-lg text-slate-700 leading-relaxed">
+      Isaiah Abeyta serves as a neutral and accountable fiduciary in matters
+      involving estates, trusts, conservatorships, and receiverships.
+      The focus is on clear communication, organized documentation,
+      practical coordination, and steady progress toward resolution.
+    </p>
+  </div>
+
+  <div>
+    <p className="text-lg text-slate-700 leading-relaxed">
+      Bringing 17+ years of management, financial analysis, and project
+      experience to each case, with a background that includes contract
+      administration, strategic planning, and hands-on coordination with
+      contractors, inspectors, attorneys, and legal teams.
+    </p>
+  </div>
+</div>
             </p>
             <p className="text-slate-700 text-sm">
-              Isaiah brings 17+ years of management, financial analysis, and
-              project experience to each case, with a background that includes
-              contract administration, strategic planning, and hands-on
-              coordination with contractors, inspectors, and legal teams.
+      
             </p>
           </div>
         </section>

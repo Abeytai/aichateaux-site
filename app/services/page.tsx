@@ -68,7 +68,7 @@ export default function ServicesPage() {
               Services
             </p>
             <h1 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900">
-              Fiduciary &amp; Real Estate Services for Complex Estates
+              California Licensed Professional Fiduciary Services for Families, Attorneys, and Courts
             </h1>
             <p className="text-slate-700 text-base md:text-lg">
               AI Fiduciary partners with attorneys, families, and courts to
