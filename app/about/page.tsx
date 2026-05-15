@@ -169,10 +169,10 @@ export default function FiduciaryPage() {
                 Background Snapshot
               </p>
               <ul className="text-sm text-slate-700 space-y-2">
-                <li>• MBA, California State University, Sacramento</li>
-                <li>• B.S, Sonoma State Univeristy, Rohnert Park</li>
+                <li>• MBA, California State University Sacramento</li>
+                <li>• B.S, Sonoma State Univeristy</li>
                 <li>• California licensed real-estate professional</li>
-                <li>• National Certifed Guardian (NGA)</li>   
+                <li>• National Certifed Guardian (NCG)</li>   
                 <li>• Six Sigma Black Belt (CSSC)</li>
                 <li>• 17+ years in management &amp; operations</li>
                 <li>• Experience with distressed &amp; value-add properties</li>
