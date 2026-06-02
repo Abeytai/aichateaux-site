@@ -50,8 +50,12 @@ export default function ServicesPage() {
             >
               Services
             </a>
-            <a href="/about" className="hover:text-red-700">
-              Fiduciary
+      <a href="/about" className="hover:text-red-700">
+  About
+</a>
+
+<a href="/fees" className="hover:text-red-700">
+  Fees
             </a>
             <a href="/contact" className="hover:text-red-700">
               Contact

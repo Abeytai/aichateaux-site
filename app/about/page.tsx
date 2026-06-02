@@ -47,11 +47,12 @@ export default function FiduciaryPage() {
             <a href="/services" className="hover:text-red-700">
               Services
             </a>
-            <a
-              href="/about"
-              className="text-red-700 border-b-2 border-red-700 pb-1"
-            >
-              Fiduciary
+      <a href="/about" className="hover:text-red-700">
+  About
+</a>
+
+<a href="/fees" className="hover:text-red-700">
+  Fees
             </a>
             <a href="/contact" className="hover:text-red-700">
               Contact
