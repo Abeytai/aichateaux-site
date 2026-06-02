@@ -50,7 +50,7 @@ export default function FeesPage() {
             </a>
 
             <a href="/about" className="hover:text-red-700">
-              Fiduciary
+              About
             </a>
 
             <a
